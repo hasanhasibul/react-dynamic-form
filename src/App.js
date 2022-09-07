@@ -1,25 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+// import Table from './Components/Table';
+import TableTwo from './Components/TableTwo';
+import TableThree from './Components/TableThree';
+import TableFour from './Components/TableFour';
+import TableFive from './Components/TableFive';
+import HookForm from './Components/HookForm';
+// import Table from './Components/TableWithComponents.js/Table';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" p-16">
+      {/* <Table /> */}
+      {/* <TableTwo /> */}
+      {/* <TableThree /> */}
+      {/* <TableFour /> */}
+      {/* <Table /> */}
+      <TableFive />
+      {/* <HookForm /> */}
+
     </div>
   );
 }
 
 export default App;
+
+
+
